@@ -1,0 +1,70 @@
+
+public class Gerente {
+	public String checar( Projeto p ) {
+		// verifica prazo do projeto
+		if (p.d < 90) {
+		// verifica se projeto ainda está em andamento
+			if (!p.isEntregue()) {
+			// projeto ainda em andamento e com prazo curto para entrega
+				return "Projeto está apertado" ;
+			} else {
+				return "Projeto entregue";}
+		} else { 
+			List<Cliente> clients = p.getClientes();
+			for (Cliente c : clients) {
+				c.avisaAtraso(p.d);
+			}
+			return "Projeto atrasado";
+		}
+	}
+}
+
+Bad Smells encontrados {
+	Feature Envy: O metodo em gerente está dependendo demais de outra classe (Produto)
+	Long Method: Metodo grande, aumentando a probabilidade de erros.
+}
+
+Para resolver esses Bad Smells, usamos as tecnicas:
+	Extract class, em que vamos levar a funcionalidade do methodo para a classe especialista, Produto,
+	deixando apenas a chamada do metodo em Gerente.
+
+	Extract method, em que vamos separar partes do código do metodo checar em 2 metodos
+	para reduzir o tamanho do metodo com intuição de melhorar na hora da manutenção.
+
+Dessa forma, teremos: 
+
+public class Gerente {
+	public String checar( Projeto projeto ) {
+		return projeto.checar();
+	}
+}
+
+public class Projeto {
+	public int d;
+	public boolean isEntregue() {
+		return false;
+	}
+	public List<Cliente> getClientes() {
+		return null;
+	}
+
+	public String checar(){
+		if (this.d < 90) {
+			if (!projeto.isEntregue()) {
+				return "Projeto está apertado" ;
+			} else {
+				return "Projeto entregue";
+			}
+		} else { 
+			this.avisaClientes();
+			return "Projeto atrasado";
+		}
+	}
+
+	private void avisaClientes() {
+		List<Cliente> clientes = getClientes();
+		for (Cliente c : clientes) {
+			c.avisaAtraso(this.d); 
+		}
+	}
+}
