@@ -9,7 +9,7 @@ while(True):
         print("Isso ae!!!")
         break
     
-    if(x < valor):
+    if(x > valor):
         print("Voce informou um numero maior")
-    elif(x > valor):
+    elif(x<valor):
         print("Voce informou um numero menor")
