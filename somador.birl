@@ -1,0 +1,17 @@
+OH O HOME AI PO (MONSTRO SOMAR(MONSTRO A, MONSTRO B))
+      BORA CUMPADE A + B;
+BIRL
+
+HORA DO SHOW
+      MONSTRO A, B, RES;
+      CE QUER VER ESSA PORRA? ("Entra com a e b ai cumpade!!\n");
+      QUE QUE CE QUER MONSTRAO? ("%d %d", &A, &B);
+      RES = AJUDA O MALUCO TA DOENTE SOMAR(A, B);
+      CE QUER VER ESSA PORRA? ("Oh o resultado ai po: %d\n", RES);
+      ELE QUE A GENTE QUER? (RES == 37)
+            CE QUER VER ESSA PORRA? ("É 37 anos caralho!\n");
+      NAO VAI DAR NAO
+            CE QUER VER ESSA PORRA? ("Manda o double biceps!\n");
+      BIRL
+      BORA CUMPADE 0;
+BIRL
