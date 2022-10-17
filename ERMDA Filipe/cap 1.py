@@ -1,0 +1,1 @@
+horas = int(input(''))
