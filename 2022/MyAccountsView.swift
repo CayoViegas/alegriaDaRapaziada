@@ -1,10 +1,5 @@
-//
-//  MyAccountsView.swift
-//  ProfitChart
-//
-//  Created by nelogica on 22/08/22.
-//  Copyright © 2022 Nelogica. All rights reserved.
-//
+//  vai si fuder pedr0 f0nt3s
+
 
 import SwiftUI
 

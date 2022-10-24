@@ -1,30 +1,4 @@
-//****************************************************************************
-//
-//       Nome: BoletaViewController
-//  Descrição: tela da boleta
-//
-//    Criação: 15/01/2018  v1.0     Ludgero Mascarenhas
-// Modificado: 24/07/2018  v1.3.6   Luís Felipe Polo
-//             - Usar AssetId como identificador de ativos
-//             03/10/2018  v1.3.12  Luís Felipe Polo
-//             - Manter a última quantidade informada pelo usuário na boleta
-//             10/10/2018  v1.3.14  Luís Felipe Polo
-//             - Mantém mesma quantidade nas boletas day trade e de compra e venda
-//             12/02/2019  v1.3.42  Guilherme Cardoso Soares
-//             - Barra de Replay
-//             13/02/2018  v1.3.42  Luís Felipe Polo
-//             - Máscara para o campo de preço da boleta
-//             19/02/2019  v1.3.46  Guilherme Cardoso Soares
-//             - Referência única para um Stock
-//             11/03/2019  v1.3.52  Guilherme Cardoso Soares
-//             - Incremento e decremento do stepper devem ir para o próximo valor válido (e não variar conforme o lote/incremento)
-//             19/03/2019  v1.3.54  Luís Felipe Polo
-//             - Zeragem de posição via servidor
-//             05/04/2019  v1.3.56  Luís Felipe Polo
-//             - Teste se bolsa é Bovespa ou BMF incluindo bolsas de replay
-//             18/06/2019  v1.3.86  Guilherme Cardoso Soares
-//             - Crash na Boleta: atribui valor a um outlet ao usar o atalho da WatchList
-//****************************************************************************
+// rejeita os mizeráveis
 
 import Foundation
 import UIKit

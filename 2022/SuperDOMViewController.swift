@@ -1,24 +1,4 @@
-//****************************************************************************
-//
-//       Nome: SuperDOMViewController
-//  Descrição:
-//
-//    Criação: 06/12/2017  v1.0    Luís Felipe Polo
-// Modificado: 23/07/2018  v1.3.6  Luís Felipe Polo
-//             - Usar AssetId como identificador de ativos
-//             03/10/2018  v1.3.12  Luís Felipe Polo
-//             - Manter a última quantidade informada pelo usuário na boleta
-//             06/03/2019  v1.3.52  Guilherme Cardoso Soares
-//             - Nova classe de Logs
-//             11/03/2019  v1.3.52  Guilherme Cardoso Soares
-//             - Incremento e decremento do stepper devem ir para o próximo valor válido (e não variar conforme o lote/incremento)
-//             19/03/2019  v1.3.54  Guilherme Cardoso Soares
-//             - Novas cores para a boleta do SuperDOM
-//             20/03/2019  v1.3.54  Guilherme Cardoso Soares
-//             - Novas cores para a boleta do SuperDOM
-//             27/03/2019  v1.3.56  Guilherme Cardoso Soares
-//             - Nova Classe de Logs: Novas informações sendo registradas
-//****************************************************************************
+// papai noel velho batuta
 
 import UIKit
 import AudioToolbox
