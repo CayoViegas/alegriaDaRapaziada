@@ -1,10 +1,4 @@
-//
-//  MyAccountsViewModelBase.swift
-//  ProfitChart
-//
-//  Created by nelogica on 22/08/22.
-//  Copyright © 2022 Nelogica. All rights reserved.
-//
+// p3dr0 f0nt3s o pai ausente
 
 import Foundation
 import Combine
